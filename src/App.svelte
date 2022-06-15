@@ -2,44 +2,44 @@
 
 import Gun from "gun";
 
+// declaring variables
+var name: any; 
+var city: any; 
+
+// Initialize GUN and tell it we will be storing all data under the key 'test'.
+var gun = Gun(['https://gunrelayeurope.herokuapp.com/gun']).get('test')
+
 // Fetch the input fields from form
 async function handleSubmit(event) {
         console.log(event);
         console.log(event.target);
-        console.log(event.target.name.value);
-        console.log(event.target.city.value);
+
+        //check if submit fills the values of the variables
         console.log(name)
         console.log(city)
         
-        // initialize Gun
-        const gun = Gun(['https://gunrelayeurope.herokuapp.com/gun'])
+        // Tell GUN to store an object
+        gun.set({name, city});        
         
-        const create = () => gun.get("test").put({name}).put({city})
-        console.log(gun)
+        gun.get('test').on(data => console.log(data))
         }
- 
- //
- let name = ""
- let city = ""
- 
-</script>
 
+</script>
 
 
 <form on:submit|preventDefault="{handleSubmit}">
   <div>
-    <label for="name">Name</label>
+    <label for="name">Name</label> 
     <input id="name" type="text" name="name" bind:value={name}>
     <br>
     <label for="city">City</label>
-    <input id="city" type="text" name="city"bind:value={city}>
+    <input id="city" type="text" name="city" bind:value={city}>
   </div>
 
   <div>
     <input type="submit" value="Send">
   </div>
 </form>
-
 
 
 <style>
