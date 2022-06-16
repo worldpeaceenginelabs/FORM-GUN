@@ -24,7 +24,7 @@ The course i will offer is a compiler course, because thats what Svelte is. A Co
 
 And i understand the compiler already very well, just not JS yet 😅
 
-So its not about to change your favourite language. Its actually just about changing your compiler for JS/Typescript eventually? 😉 (i had to grasp that myself again, just a few minutes ago)
+So its not about to change your favourite language. Its actually just about changing your compiler for JS/Typescript eventually? 😉 (i had to grasp that myself a few times)
 
 Since the other options are Vanilla JS, or Typescript anyway, you can just drop your JS/Typescript file in the red box, and your HMTL file into the green box.
 
