@@ -21,7 +21,7 @@ async function handleSubmit(event) {
         // Tell GUN to store an object
         gun.set({name, city});        
         
-        gun.get('test').on(data => console.log(data))
+        gun.on(data => console.log(data))
         }
 
 </script>
