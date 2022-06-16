@@ -33,7 +33,7 @@ I just drop you the screenshot of my typical desktop as a visual helper, because
 Modify the server, test a new script, test the build and load the static files to a cdn maybe?...
 
 Its a fresh npm create vite@latest, nothing touched but App.svelte and npm install gun
-https://github.com/worldpeaceenginelabs/decentralize-subscription-service
+https://github.com/worldpeaceenginelabs/FORM-GUN
 
 I would love to read your feedbacks on how you liked to code in Svelte your first time?
 <br>
