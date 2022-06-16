@@ -14,7 +14,7 @@
 
 I am starting to offer 30-60min courses on Fiverr, as of today.
 
-For Svelte js beginners and js professionals who want to transfer to Svelte, or want to come back to good "old" Typescript.
+For Svelte js beginners and js professionals who want to switch to Svelte, or want to come back to good "old" Typescript.
 
 A decision which gets even rewarded with Vanilla JS code at the end🤩
 
