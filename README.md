@@ -12,21 +12,9 @@
 
 # Svelte Compiler Tutorial with Gun
 
-I am starting to offer 30-60min courses on Fiverr, as of today.
+Can you code in Javascript/Typescript? Do you want Vanilla JS code at the end without learning it?🤩
 
-For Svelte js beginners and js professionals who want to switch to Svelte, or want to come back to good "old" Typescript.
-
-A decision which gets even rewarded with Vanilla JS code at the end🤩
-
-But i am not teaching a language to others, after just 6 weeks of coding actively, of course, even though everybody will come with this expectation into that course.
-
-The course i will offer is a compiler course, because thats what Svelte is. A Compiler!
-
-And i understand the compiler already very well, just not JS yet 😅
-
-So its not about to change your favourite language. Its actually just about changing your compiler for JS/Typescript eventually? 😉 (i had to grasp that myself a few times)
-
-Since the other options are Vanilla JS, or Typescript anyway, you can just drop your JS/Typescript file in the red box, and your HMTL file into the green box.
+You can just drop your JS/Typescript file in the red box, and your HMTL file into the green box. (or split your js page's code into js and html and drop them into the boxes)
 
 I just drop you the screenshot of my typical desktop as a visual helper, because you can just test in Typescript whatever you want, to get a first touch with Svelte instant!
 
