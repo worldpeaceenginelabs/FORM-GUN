@@ -6,7 +6,7 @@
 # HOW TO USE
  
 - **npm install (installs the dependencies)**
-- **npm run dev (hot module reloading)**
+- **npm run dev (preview and hot module reloading)**
 - **npm run build (exports static for CDN)**
 <br><br><br>
 
