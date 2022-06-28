@@ -26,4 +26,4 @@ https://github.com/worldpeaceenginelabs/FORM-GUN
 I would love to read your feedbacks on how you liked to code in Svelte your first time?
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/174095893-a7695272-31b6-4106-99d9-2af08c5d3f56.png)
+![image](https://user-images.githubusercontent.com/67427045/176132137-16740536-68b9-482e-b5d7-0b86dbb2f85b.png)
