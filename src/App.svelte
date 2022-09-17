@@ -3,8 +3,8 @@
 import Gun from "gun";
 
 // declaring variables
-var name: any; 
-var city: any; 
+var longitude: number; 
+var latitude: number;
 
 // Initialize GUN and tell it we will be storing all data under the key 'test'.
 var gun = Gun(['https://gunrelayeurope.herokuapp.com/gun']).get('test')
@@ -15,12 +15,14 @@ async function handleSubmit(event) {
         console.log(event.target);
 
         //check if submit fills the values of the variables
-        console.log(name)
-        console.log(city)
+        console.log(longitude)
+        console.log(latitude)
         
         // Tell GUN to store an object
-        gun.set({name, city});        
+        gun.set({longitude, latitude});        
         
+        // Show Gun data
+
         gun.on(data => console.log(data))
         }
 
@@ -29,11 +31,11 @@ async function handleSubmit(event) {
 
 <form on:submit|preventDefault="{handleSubmit}">
   <div>
-    <label for="name">Name</label> 
-    <input id="name" type="text" name="name" bind:value={name}>
+    <label for="longitude">Longitude</label> 
+    <input id="longitude" type="text" name="longitude" bind:value={longitude}>
     <br>
-    <label for="city">City</label>
-    <input id="city" type="text" name="city" bind:value={city}>
+    <label for="latitude">Latitude</label>
+    <input id="latitude" type="text" name="latitude" bind:value={latitude}>
   </div>
 
   <div>
