@@ -12,11 +12,11 @@
 
 # Svelte Compiler Tutorial with Gun
 
-Can you code in Javascript/Typescript? Do you want Vanilla JS code at the end without learning it?🤩
+Can you code in Javascript?
 
-You can just drop your JS/Typescript file in the red box, and your HMTL file into the green box. (or split your js page's code into js and html and drop them into the boxes)
+Svelte alone is just a frontend compiler. More precisely, Svelte delivers its own JavaScript/TypeScript compiler which generates the client-side JavaScript at build time. This compiled JavaScript is specialized to adapt the DOM in such a way that as little data as possible has to be exchanged between server and client. This has numerous benefits for the user experience.
 
-I just drop you the screenshot of my typical desktop as a visual helper, because you can just test in Typescript whatever you want, to get a first touch with Svelte instant!
+I just drop you the screenshot of my typical coding environment as a visual helper, because you can just test whatever you want, to get a first touch with Svelte instant!
 
 Modify the server, test a new script, test the build and load the static files to a cdn maybe?...
 
@@ -26,18 +26,18 @@ https://github.com/worldpeaceenginelabs/FORM-GUN
 I would love to read your feedbacks on how you liked to code in Svelte your first time?
 <br>
 
-![image](https://user-images.githubusercontent.com/67427045/176132137-16740536-68b9-482e-b5d7-0b86dbb2f85b.png)
+![image](https://user-images.githubusercontent.com/67427045/216777654-2ba471e0-19e6-4adf-bdc5-f5adcbcb4485.png)
 
 # Why vite@latest instead of sveltejs@latest?
 
 I did research a few month ago, sveltejs vs. sveltekit (the text snippet is good summary of it)
 
-if you use the framework (sveltekit) you get their whatever in your code.
-if you use the sveltecompiler(sveltejs) you'll get clean buildfiles in vanillajs.
+- if you use the framework (sveltekit) you get their whatever in your code.
+- if you use the sveltecompiler(sveltejs) you'll get clean buildfiles in vanillajs.
 
 Especially for decentralized/local first apps, you want to go for sveltejs, which's buildfiles run on browser, edge, everywhere... (jamstack)
 
-The environment after npm install vite@latest (choose svelte/TS in the prompt) has a much better dev experience then npm install svelte@latest (very well pre-configured, npm run build is edge-ready from the start and vite is fast as heck, instant startup with hot-reloading)
+The environment after npm create vite@latest (choose svelte, then JS or TS in the prompt) has a much better dev experience then npm install svelte@latest (very well pre-configured, npm run build is edge-ready from the start and vite is fast as heck, instant startup with hot-reloading)
 
 ---
 
